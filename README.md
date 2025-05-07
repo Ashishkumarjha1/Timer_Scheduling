@@ -1,45 +1,21 @@
+ Timer Utility (C++)
+Features
+Supports ONESHOT and PERIODIC timers.
 
-## Building Dependencies
+Allows timer scheduling via:
 
-Before you can build the service, you need to install some dependencies on your Linux system.
+Specific intervals (e.g., 1h 30m 10s)
 
-### Prerequisites
+Specific times (e.g., "14:30:00")
 
-- pthread
+Runs timers on a separate thread.
 
-To install these dependencies on Debian/Ubuntu-based systems, you can use the following commands:
+Automatically invokes provided callback functions when timers expire.
 
-```bash
-sudo apt-get install pthreads
+Thread-safe with mutex and condition_variable for precise scheduling.
 
+Technologies Used
+C++11 and above
 
-```
-
-
-
-## Building and Installing
-
-1. Create a `build` directory in the root of this repository:
-
-   ```bash
-   mkdir build
-   cd build
-   ```
-
-2. Run CMake to configure the build:
-
-   ```bash
-   cmake ..
-   ```
-
-
-
-
-
-
-## Running the Service
-
-1. cd build
-./timer_app
-
-
+STL Threads, Mutex, Condition Variables
+Chrono library for time manipulation
