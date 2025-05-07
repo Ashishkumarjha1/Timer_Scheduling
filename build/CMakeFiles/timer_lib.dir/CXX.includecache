@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Timer.hpp
+iostream
+-
+list
+-
+locale
+-
+iomanip
+-
+map
+-
+variant
+-
+chrono
+-
+thread
+-
+sstream
+-
+ctime
+-
+mutex
+-
+condition_variable
+-
+
+/home/allgovision/Timer_testing/TIMER/src/Timer.cpp
+Timer.hpp
+/home/allgovision/Timer_testing/TIMER/src/Timer.hpp
+

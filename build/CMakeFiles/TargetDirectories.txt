@@ -1,0 +1,3 @@
+/home/allgovision/Timer_testing/TIMER/build/CMakeFiles/rebuild_cache.dir
+/home/allgovision/Timer_testing/TIMER/build/CMakeFiles/edit_cache.dir
+/home/allgovision/Timer_testing/TIMER/build/CMakeFiles/timer_lib.dir
